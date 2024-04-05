@@ -27,6 +27,7 @@ jobs:
           npm install
           npm run build
           cd dist
+          cat bundle.js
           ls
           pwd
          
