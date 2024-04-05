@@ -28,6 +28,8 @@ jobs:
           npm run build
           ls
           pwd
+          git commit -m " added dist "
+          git push 
         
 
       
