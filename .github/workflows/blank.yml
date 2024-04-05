@@ -29,7 +29,8 @@ jobs:
           ls
           pwd
           git commit -m " added dist "
-          git push 
+          git push origin master
+          
         
 
       
