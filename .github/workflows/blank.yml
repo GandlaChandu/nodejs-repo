@@ -30,6 +30,7 @@ jobs:
           pwd
           git config --global user.email "chandugandla4092@gmail.com"
           git config --global user.name "GandlaChandu"
+          git add .
           git commit -m " added dist "
           git push origin master
           
