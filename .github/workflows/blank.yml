@@ -23,12 +23,14 @@ jobs:
           node-version: '14'  
           
       - name: Install dependencies
-        run: |          
+        run: |   
+          npm install
           npm run build
           ls
           pwd
           git config --global user.email "chandugandla4092@gmail.com"
           git config --global user.name "GandlaChandu"
+          npm uninstall --save
           git add .
           git commit -m " added dist "
           git push origin master
