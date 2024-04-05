@@ -14,4 +14,4 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: dist
-          path: dist
+          path: /home/runner/work/nodejs-repo/nodejs-repo/dist
