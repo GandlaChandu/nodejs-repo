@@ -26,15 +26,10 @@ jobs:
         run: |   
           npm install
           npm run build
+          cd dist
           ls
           pwd
-          git config --global user.email "chandugandla4092@gmail.com"
-          git config --global user.name "GandlaChandu"
-          npm uninstall --save
-          git add .
-          git commit -m " added dist "
-          git push origin master
-          
+         
         
 
       
